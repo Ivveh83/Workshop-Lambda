@@ -100,7 +100,7 @@ public class App {
                 number = Integer.parseInt(SCANNER.nextLine().trim());
                 validNumber = number >= 0 && number < 14;
             } catch (NumberFormatException ex) {
-                System.out.println("Not a integer");
+                System.out.println("Not an integer");
             }
             if (!validNumber) {
                 System.out.println("Try again");
